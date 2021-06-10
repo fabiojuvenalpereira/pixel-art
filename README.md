@@ -25,7 +25,7 @@ Fabio Juvenal Pereira
 **Free** :eyes:
 
 #### Os links abaixo contém alguns sites e fóruns, de onde foram retiradas algumas referências:
-- [Developer mozzila] - https://developer.mozilla.org/pt-BR/docs/Web/JavaScript
+- [Developer mozilla] - https://developer.mozilla.org/pt-BR/docs/Web/JavaScript
 - [Stack Overflow] - https://stackoverflow.com/
 - [W3 Schools] - https://www.w3schools.com/jsref/default.asp
 ### Agradecimentos
