@@ -25,9 +25,9 @@ Fabio Juvenal Pereira
 **Free** :eyes:
 
 #### Os links abaixo contém alguns sites e fóruns, de onde foram retiradas algumas referências:
-https://developer.mozilla.org/pt-BR/docs/Web/JavaScript
-https://stackoverflow.com/
-https://www.w3schools.com/jsref/default.asp
+- [Developer mozzila] - https://developer.mozilla.org/pt-BR/docs/Web/JavaScript
+- [Stack Overflow] - https://stackoverflow.com/
+- [W3 Schools] - https://www.w3schools.com/jsref/default.asp
 ### Agradecimentos
 Agradecimentos a todos que colaboraram para o desenvolvimento deste projeto. Principalmente aos colegas de turma que colaboraram ajudando e esclarecer algumas dúvidas. Agradecimento especial, as pessoas instrutoras que me ajudaram durantes os plantões da trybe, Baêta, Carol e Panta.
 
