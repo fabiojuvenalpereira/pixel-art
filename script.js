@@ -82,6 +82,7 @@ function filterInput() {
   return getInput;
 }
 
+// Apaga a board anterior e gera a nova
 function adiciona() {
   const cleanScreen = pixelBoard;
   const getValue = filterInput();
@@ -94,7 +95,6 @@ function adiciona() {
 }
 
 window.onload = () => {
-  // generateRandomColor();
   lineGenerator(nLines);
   color();
 };
@@ -128,6 +128,8 @@ color1.addEventListener('click', selecting);
 color2.addEventListener('click', selecting);
 color3.addEventListener('click', selecting);
 color4.addEventListener('click', selecting);
+color5.addEventListener('click', selecting);
+color6.addEventListener('click', selecting);
 
 // REFERÊNCIAS:
 // Abaixo todas as referências necessárias para desenvolver o código...

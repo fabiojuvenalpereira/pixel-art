@@ -1,54 +1,102 @@
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 body {
-  background-color: rgb(191, 187, 186);
+  background-image: url(images/chill.gif);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size:cover;
+  background-position: center;
 }
+/* #background {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(images/chill.gif);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size:cover;
+  background-position: center;
+} */
 
 #buttons {
+  width: 40vw;
   margin: 1em auto;
-  border: 1px solid red;
-}
-
-#main-content {
-  border: solid 1px red;
 }
 
 #pixel-board {
-  width: auto;
+  display: inline-block;
+  background-color: azure;
+  padding: 10px;
   height: auto;
-  border: solid 1px pink;
+  width: auto;
+  margin: 0 auto;
+  filter: drop-shadow(10px 10px 5px black);
+}
+
+#generate-board {
+  background-color: rgb(255, 255, 255);
+  filter: opacity(80%);
+}
+
+#clear-board {
+  background-color: rgb(255, 255, 255);
+  filter: opacity(80%);
+}
+
+#grid-palette {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center
 }
 
 #title {
-  color: rgb(37, 37, 24);
-  font-family: monospace;
+  padding-top: 5%;
+  color: azure;
+  font-family:'Press Start 2P', cursive;
+  filter: drop-shadow(2px 2px 5px red);
+}
+
+#palette-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  filter: opacity(80%);
+}
+
+.header{
+  display: flex;
+  justify-content: center;
+  
 }
 
 .color {
+  border: solid 1px black;
   display: inline-block;
+  border-radius: 50%;
   margin-left: auto;
   margin-right: auto;
-  border: solid 1px black;
-  width: 50px;
-  height: 50px;
+  height: 45px;
+  width: 45px;
+  
 }
 
 .pixel {
-  display: inline-block;
   background-color: white;
-  width: 40px;
+  border: solid 1px rgb(204, 204, 204);
+  display: inline-block;
   height: 40px;
-  border: solid 1px black;
+  width: 40px;
+  margin-bottom: -9px;
 }
 
 .selected {
-  display: inline-block;
   border: solid 1px black;
-  border-radius: 5px;
-  width: 50px;
+  border-radius: 50%;
+  display: inline-block;
   height: 50px;
+  width: 50px;
 }
