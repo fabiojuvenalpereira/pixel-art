@@ -2,8 +2,9 @@ const color1 = document.querySelectorAll('.color')[0];
 const color2 = document.querySelectorAll('.color')[1];
 const color3 = document.querySelectorAll('.color')[2];
 const color4 = document.querySelectorAll('.color')[3];
-const color5 = document.querySelectorAll('.color')[4]
-const color6 = document.querySelectorAll('.color')[5]
+const color5 = document.querySelectorAll('.color')[4];
+const color6 = document.querySelectorAll('.color')[5];
+const color7 = document.querySelectorAll('.color')[6];
 
 const pixelBoard = document.querySelector('#pixel-board');
 const colors = document.querySelectorAll('.color');
@@ -29,28 +30,16 @@ const Bcolor3 = generateRandomColor();
 const Bcolor4 = generateRandomColor();
 const Bcolor5 = generateRandomColor();
 const Bcolor6 = generateRandomColor();
+const Bcolor7 = 'rgb(255,255,255)';
 
 function color() {
-  const array = [Bcolor1, Bcolor2, Bcolor3, Bcolor4, Bcolor5, Bcolor6];
+  const array = [Bcolor1, Bcolor2, Bcolor3, Bcolor4, Bcolor5, Bcolor6,Bcolor7];
   for (let index = 0; index < colors.length; index += 1) {
     colors[index].style.backgroundColor = array[index];
   }
 }
 
-// function color() {
-//   for (let indexC = 0; indexC < colors.length; indexC += 1) {
-//     if (indexC === 0) {
-//       colors[indexC].style.backgroundColor = Bcolor1;
-//     } else if (indexC === 1) {
-//       colors[indexC].style.backgroundColor = Bcolor2;
-//     } else if (indexC === 2) {
-//       colors[indexC].style.backgroundColor = Bcolor3;
-//     } else if (indexC === 3) {
-//       colors[indexC].style.backgroundColor = Bcolor4;
-//     }
-//   }
-// }
-
+// gera colunas
 function columnGenerator(valor) {
   const inputSize = valor;
   const grid = document.querySelector('#pixel-board');
@@ -63,6 +52,7 @@ function columnGenerator(valor) {
   grid.appendChild(br);
 }
 
+// gera linhas 
 function lineGenerator(valor) {
   const inputSizeV = valor;
   for (let index2 = 0; index2 < inputSizeV; index2 += 1) {
@@ -70,6 +60,7 @@ function lineGenerator(valor) {
   }
 }
 
+// filtra o input e trata os valores
 function filterInput() {
   let getInput = document.querySelector('#board-size').value;
   if (getInput > 50) {
@@ -130,6 +121,7 @@ color3.addEventListener('click', selecting);
 color4.addEventListener('click', selecting);
 color5.addEventListener('click', selecting);
 color6.addEventListener('click', selecting);
+color7.addEventListener('click', selecting);
 
 // REFERÊNCIAS:
 // Abaixo todas as referências necessárias para desenvolver o código...
