@@ -11,6 +11,7 @@ const colors = document.querySelectorAll('.color');
 const button = document.querySelector('#clear-board');
 const tamBoardButton = document.querySelector('#generate-board');
 
+
 // define um tamanho padrão para a tabela que é de 5x5
 const nLines = 5;
 
@@ -85,7 +86,13 @@ function adiciona() {
   }
 }
 
+function backgroundMusic (){
+  const music = document.querySelector('audio');
+  music.play();
+}
+
 window.onload = () => {
+  backgroundMusic();
   lineGenerator(nLines);
   color();
 };
