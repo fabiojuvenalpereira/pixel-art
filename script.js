@@ -10,7 +10,7 @@ const pixelBoard = document.querySelector('#pixel-board');
 const colors = document.querySelectorAll('.color');
 const button = document.querySelector('#clear-board');
 const tamBoardButton = document.querySelector('#generate-board');
-const pause = document.querySelector('#pause-music');
+const pause = document.querySelector('#btn-play');
 
 
 // define um tamanho padrão para a tabela que é de 5x5
@@ -92,9 +92,18 @@ function adiciona() {
 // }
 
 pause.addEventListener('click', function(eventoClick){
-  console.log(eventoClick);
   const music = document.querySelector('audio');
-  music.play();
+  
+  if(pause.classList.contains('selectedPlay')){
+    music.pause();
+    pause.classList.remove('selectedPlay');
+    pause.innerHTML = "&#128683;";
+  } else {
+    music.play();
+    pause.classList.add('selectedPlay');
+    pause.innerHTML = "&#127926;";
+  }
+ 
 });
 
 window.onload = () => {
