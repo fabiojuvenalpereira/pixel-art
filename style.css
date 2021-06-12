@@ -53,6 +53,12 @@ body {
   filter: drop-shadow(2px 2px 5px rgb(77, 255, 107));
 }
 
+#pause-music{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 #palette-section {
   display: flex;
   flex-direction: column;
@@ -61,6 +67,7 @@ body {
 
 .header{
   display: flex;
+  flex-flow: row wrap;
   justify-content: center;
 }
 
