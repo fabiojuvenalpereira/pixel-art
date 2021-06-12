@@ -87,27 +87,22 @@ function adiciona() {
   }
 }
 
-// function backgroundMusic (){
-  
-// }
-
+// adiciona musica ao site
 pause.addEventListener('click', function(eventoClick){
   const music = document.querySelector('audio');
   
   if(pause.classList.contains('selectedPlay')){
     music.pause();
     pause.classList.remove('selectedPlay');
-    pause.innerHTML = "&#128683;";
+    pause.innerHTML = "&#127926;";
   } else {
     music.play();
     pause.classList.add('selectedPlay');
-    pause.innerHTML = "&#127926;";
+    pause.innerHTML = "&#128683;";
   }
- 
 });
 
 window.onload = () => {
-  // backgroundMusic();
   lineGenerator(nLines);
   color();
 };
