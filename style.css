@@ -34,16 +34,6 @@ body {
   filter: drop-shadow(10px 10px 5px black);
 }
 
-#generate-board {
-  background-color: rgb(255, 255, 255);
-  filter: opacity(95%);
-}
-
-#clear-board {
-  background-color: rgb(255, 255, 255);
-  filter: opacity(95%);
-}
-
 #grid-palette {
   display: flex;
   flex-direction: row;
