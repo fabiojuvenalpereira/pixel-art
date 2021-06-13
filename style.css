@@ -18,11 +18,12 @@ body {
 }
 
 #btn-play {
-  /* text-align: center; */
   color: rgb(0, 0, 0);
 }
 
 #board-size {
+  display: flex;
+  width: 80%;
   background-color: rgb(255, 255, 255);
   filter: opacity(95%);
 }
@@ -34,6 +35,22 @@ body {
   filter: drop-shadow(10px 10px 5px black);
 }
 
+#generate-board {
+  color: white;
+  filter: opacity(95%);
+  filter: drop-shadow(1px 1px 1px black);
+}
+
+#clear-board {
+  color: white;
+  filter: drop-shadow(1px 1px 1px black);
+}
+
+#btn-play {
+  color: white;
+  filter: drop-shadow(1px 1px 1px black);
+}
+
 #grid-palette {
   display: flex;
   flex-direction: row;
@@ -42,6 +59,7 @@ body {
 }
 
 #title {
+  text-align: center;
   padding-top: 5%;
   color: azure;
   font-family:'Press Start 2P', cursive;
@@ -92,4 +110,10 @@ body {
   height: 50px;
   width: 50px;
   filter: drop-shadow(0px 0px 5px white);
+}
+
+.botoes {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
 }
