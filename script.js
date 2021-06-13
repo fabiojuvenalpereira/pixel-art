@@ -94,11 +94,15 @@ pause.addEventListener('click', function(eventoClick){
   if(pause.classList.contains('selectedPlay')){
     music.pause();
     pause.classList.remove('selectedPlay');
-    pause.innerHTML = "&#127926;";
+    pause.classList.remove('fa');
+    pause.classList.remove('fa-pause');
+    pause.classList.add('fa');
+    pause.classList.add('fa-play');
   } else {
     music.play();
     pause.classList.add('selectedPlay');
-    pause.innerHTML = "&#128683;";
+    pause.classList.add('fa');
+    pause.classList.add('fa-pause');
   }
 });
 

@@ -5,7 +5,7 @@
 }
 
 body {
-  background-image: url(images/essa.gif);
+  background-image: url(images/sun.gif);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size:cover;
@@ -18,11 +18,12 @@ body {
 }
 
 #btn-play {
-  /* text-align: center; */
   color: rgb(0, 0, 0);
 }
 
 #board-size {
+  display: flex;
+  width: 80%;
   background-color: rgb(255, 255, 255);
   filter: opacity(95%);
 }
@@ -35,13 +36,19 @@ body {
 }
 
 #generate-board {
-  background-color: rgb(255, 255, 255);
+  color: white;
   filter: opacity(95%);
+  filter: drop-shadow(1px 1px 1px black);
 }
 
 #clear-board {
-  background-color: rgb(255, 255, 255);
-  filter: opacity(95%);
+  color: white;
+  filter: drop-shadow(1px 1px 1px black);
+}
+
+#btn-play {
+  color: white;
+  filter: drop-shadow(1px 1px 1px black);
 }
 
 #grid-palette {
@@ -52,6 +59,7 @@ body {
 }
 
 #title {
+  text-align: center;
   padding-top: 5%;
   color: azure;
   font-family:'Press Start 2P', cursive;
@@ -102,4 +110,10 @@ body {
   height: 50px;
   width: 50px;
   filter: drop-shadow(0px 0px 5px white);
+}
+
+.botoes {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
 }
