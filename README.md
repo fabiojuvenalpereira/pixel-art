@@ -15,10 +15,7 @@ Para desenvolver este projeto foram utilizadas as seguintes ferramentas:
 
 #### Caso queia instalar o Programa
 
-Para rodar o código sem erro sugiro [Node.js](https://nodejs.org/) v14+ para rodar.
-
-#### Instruções
-Para rodar o código, basta fazer o download de 
+Para rodar os códigos sem erro sugiro -> [Node.js](https://nodejs.org/) v14+ para rodar.
 
 #### Licença
 Fabio Juvenal Pereira
