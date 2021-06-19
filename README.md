@@ -18,9 +18,9 @@ Para desenvolver este projeto foram utilizadas as seguintes ferramentas:
 Para rodar os códigos sem erro sugiro -> [Node.js](https://nodejs.org/) v14+ para rodar.
 
 #### Licença
-Desenvolvido por Fabio Juvenal Pereira 
-
 **Free** :eyes:
+
+Desenvolvido por Fabio Juvenal Pereira 
 
 #### Os links abaixo contém alguns sites e fóruns, de onde foram retiradas algumas referências:
 - [Developer mozilla] - https://developer.mozilla.org/pt-BR/docs/Web/JavaScript
