@@ -1,7 +1,7 @@
 # Pixel Art Project 
 ## Pixels Art foi um projeto de finalização de bloco da trybe
 #### Utilizado para treinar as habilidades adquiridas até o momento de execução
-
+#### [Pixels Art] - https://fabiojuvenalpereira.github.io/pixel-art/
 [![N|trybe](https://uploads-ssl.webflow.com/5fba98ad987231cf0efa3d58/5fba9c9a93a2e77624258d49_Logo.svg)](https://www.betrybe.com/)
 
 Começou como um projeto da trybe de finalização de bloco, e logo em seguida preferi deixar um pouquinho mais legal.
