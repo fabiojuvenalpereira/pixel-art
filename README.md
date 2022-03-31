@@ -2,7 +2,10 @@
 ## Pixels Art foi um projeto de finalização de bloco da trybe
 #### Utilizado para treinar as habilidades adquiridas até o momento de execução
 #### Para acompanhar o resultado do projeto clique aqui --> https://fabiojuvenalpereira.github.io/pixel-art/
-[![N|trybe](https://uploads-ssl.webflow.com/5fba98ad987231cf0efa3d58/5fba9c9a93a2e77624258d49_Logo.svg)](https://www.betrybe.com/)
+
+## TRYBE
+#### Quer conhecer mais sobre a [TRYBE](https://www.betrybe.com/)?  Dê uma olhadinha neste link a seguir:
+[![N|trybe](https://assets-global.website-files.com/61549abf6fb9ca5e91bc5709/61549abf6fb9ca4630bc5747_Logo.svg)](https://www.betrybe.com/)
 
 Começou como um projeto da trybe de finalização de bloco, e logo em seguida preferi deixar um pouquinho mais legal.
 Para desenvolver este projeto foram utilizadas as seguintes ferramentas:
@@ -16,9 +19,6 @@ Para desenvolver este projeto foram utilizadas as seguintes ferramentas:
 #### Caso queia instalar o Programa
 
 Para rodar os códigos sem erro sugiro -> [Node.js](https://nodejs.org/) v14+ para rodar.
-
-#### Licença
-**Free** :eyes:
 
 Desenvolvido por Fabio Juvenal Pereira 
 
